@@ -6,6 +6,10 @@ const EntryDisplay = () => {
     return (
         <View>
             <Text>Entry Display </Text>
+            <Text>Todays Entries: </Text>
+            <Text>Apple and milk  220 cals  P/C/F</Text>
+            <Text>Apple and milk  220 cals  P/C/F</Text>
+            <Text>Apple and milk  220 cals  P/C/F</Text>
         </View>
     );
 };

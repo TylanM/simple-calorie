@@ -6,6 +6,7 @@ const FooterBar = () => {
     return (
         <View>
             <Text>Footer Bar</Text>
+            <Text>Settings and stuff</Text>
         </View>
     );
 };
