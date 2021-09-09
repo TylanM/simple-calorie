@@ -10,14 +10,22 @@ const StatsDisplay = () => {
     let fats = 30;
 
     return (
-        <View>
+        <View style={styles.centered}>
             <Text>StatsDisplay</Text>
-            <Text>Calories: {calories}/{maxCalories}</Text>
-            <Text>Macros P:{protein}g C:{carbs}g F:{fats}g</Text>
+            <Text>
+                Calories: {calories}/{maxCalories}
+            </Text>
+            <Text>
+                Macros P:{protein}g C:{carbs}g F:{fats}g
+            </Text>
         </View>
     );
 };
 
 export default StatsDisplay;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    centered: {
+        alignItems: 'center',
+    },
+});

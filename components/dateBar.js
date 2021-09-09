@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line prettier/prettier
 import { StyleSheet, Text, View } from 'react-native';
 // import React in our code
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 
 const DateBar = () => {
     const [currentDate, setCurrentDate] = useState('');
